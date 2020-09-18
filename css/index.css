@@ -1,0 +1,334 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+h3, h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+}
+    
+   .bottomtopnav ul li{display: inline-block;
+} 
+   .bottomtopnav ul li a {color: white;}
+
+
+
+.searchbar{
+    float: left;
+    margin-left: 15px;
+    background-color: aqua;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, black, rgb(245, 10, 10), black,  rgb(245, 10, 10), black);
+    color: white;
+    padding: 5px 40px;
+    position: fixed; 
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index: 100;
+}
+.navbar h3, .navbar h4{
+    display: inline;
+}
+.navbar h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    color: yellow;
+}
+.navbar h4{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    color: rgb(17, 243, 17);
+}
+.searchbar {
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+.searchbar input{
+    padding:  5px 30px;
+    border: transparent;
+    border-radius: 50px 0px 100px 50px;
+}
+.searchbar i{
+    padding: 0px 20px;
+    font-size: large;
+}
+
+.bars i{
+    font-size: 30px;
+}
+
+
+
+.itemsInBars{
+    margin-top: 75px;
+    padding-left: 10px;
+    width: 200px;
+    background-color: rgb(26, 23, 23);
+    box-sizing: border-box;
+    float: right;
+    height: 80.5vh;
+    overflow-y: scroll;
+}
+
+
+.itemsInBars ul li a{
+    color: rgb(235, 235, 207);
+}
+
+.itemsInBars ul li:hover a{
+    color: rgb(243, 243, 12);
+}
+
+.itemsInBars ul li:hover{
+    color: rgb(243, 243, 12);
+    text-align: center;
+    background-image: linear-gradient(to right, black, rgb(245, 10, 10), black,  rgb(245, 10, 10), black);
+    font-weight: bold;
+    padding: 10px 0;
+}
+.itemsInBars hr{
+    background-color: white;
+}
+
+
+/*carousel now*/
+.carouselcontainer{
+    margin-top: 74px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+
+.menu{
+    margin-top: -92vh;
+    color: red;
+    z-index: 20;
+    float: right;
+    position: relative;
+}
+
+
+.menuHide{
+    margin-top: -92vh;
+    color: red;
+    z-index: 20;
+    float: right;
+    display: none;
+}
+
+
+/* hairdryer */
+
+
+
+#parallax,
+#parallax2,
+#parallax3,
+#parallax4,
+#parallax4,
+#parallax5,
+#parallax6
+#parallax7,
+#parallax8,
+#parallax9,
+#parallax10,
+#parallax11,
+#parallax12,
+#parallax13,
+#parallax14,
+#parallax14,
+#parallax15,
+#parallax16,
+#parallax17,
+#parallax18,
+#parallax19,
+#parallax20,
+#parallax21,
+#parallax22,
+#parallax23,
+#parallax24,
+#parallax25,
+#parallax26,
+#parallax27
+{
+    
+    background-image: linear-gradient(to top, black, yellow, rgb(245, 10, 10), black);
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#parallax2{ 
+    background-image: linear-gradient(to top, rgb(161, 161, 159), rgb(114, 114, 33), rgb(10, 237, 245), black);
+}
+
+#parallax3{ 
+    background-image: linear-gradient(to top, rgb(53, 13, 233), rgba(39, 43, 44, 0.829), rgb(10, 237, 245), rgb(214, 35, 35));
+}
+
+#parallax4{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax5{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax6{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax7{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax8{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax9{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax10{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax11{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax12{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax13{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax14{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax15{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax16{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax17{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax18{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax19{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax20{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax21{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax22{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax23{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax24{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax25{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax26{
+    background-image: linear-gradient(to top, rgb(13, 13, 14), rgba(38, 87, 99, 0.829), rgb(204, 248, 250), rgb(227, 252, 7));
+}
+
+
+#parallax27{
+    background-image: linear-gradient(to top, rgb(226, 116, 13), rgba(187, 207, 212, 0.829), rgb(32, 37, 37), rgb(173, 189, 27));
+}
+
+
+/*parallax done.. hufff!!... :(|) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hairwriting{
+    z-index: 1;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: arial;
+    font-style: italic;
+    letter-spacing: 10px;
+    padding-top: 300px;
+    font-weight: bold;
+    
+}
+
+.card img{
+    height: 250px;
+}
